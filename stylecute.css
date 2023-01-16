@@ -1,0 +1,99 @@
+.body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.cute{
+    border-style: solid;
+    border-color: black;
+    border-width: thin;
+
+    width: 400px;
+    height: 500px;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+    margin: auto;
+
+    text-align: center;
+    padding: 5%;
+    box-sizing: border-box;
+
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+.text-box{
+    width: 270px;
+    height: 30px;
+    margin-bottom: 15px;
+    padding-left: 10px;
+    
+
+    box-sizing: border-box;
+}
+
+#checkbox{
+    float: left;
+}
+
+.checkbox{
+    text-align: left;
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Login-button{
+    box-sizing: border-box;
+    width: 270px;
+    height: 35px;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    
+}
+body{
+    height: 550px;
+    background-image: url(pexels-carlos-oliva-3586966.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.login-error{
+    border-style: solid;
+    border-color: red;
+}
+button :hover{
+    color: blue;
+}
+
+.btn{
+    height: 30px;
+    width: 120px;
+    display:inline;
+    border: none;
+}
+.btn i{
+    background-color: #0b5ab5;
+    border-radius: 60%;
+    color: white;
+    padding: 5px 3px ;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 5px 7px;
+    display: inline-block;
+
+}
+
+.footer{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: small;
+}
